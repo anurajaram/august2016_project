@@ -10,8 +10,6 @@ library(httr)
 library(jsonlite)
 
 # set variables for twitter API call authorization
-# please use twitter developer tools to request authorization and 
-# get the appropriate tokens below
 consumer_key = "cckkk"
 consumer_secret = "ccSSS"
 access_token = "acTTT"
@@ -68,7 +66,7 @@ while ( cursor != 0 ) {
 
 
 # write list of follower ids to csv file.
-write.csv(idlistfull, file = "phdot_folr.csv", row.names = FALSE)
+write.csv(idlistfull, file = "anx_folr.csv", row.names = FALSE)
   
   
   
