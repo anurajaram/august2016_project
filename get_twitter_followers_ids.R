@@ -10,6 +10,8 @@ library(httr)
 library(jsonlite)
 
 # set variables for twitter API call authorization
+# please use twitter developer tools to request authorization and 
+# get the appropriate tokens below
 consumer_key = "cckkk"
 consumer_secret = "ccSSS"
 access_token = "acTTT"
