@@ -10,10 +10,10 @@ library(httr)
 library(jsonlite)
 
 # set variables for twitter API call authorization
-consumer_key = "1DN6dH77O01AEzQtl7Hk3lrQS"
-consumer_secret = "WyQJ33t8JZ0z8Q2qlnO4IDGh9TKvXHfvBsBAwZCnsLw2Ochmp5"
-access_token = "3316270332-CSDn7vmTJwhz9bbsE10Jrbadylt6WJ29vVlIJ3w"
-access_secret = "Ygtf6RfU1BdlG2T2HGhJtlq5KY0X3BDbAQQp4wOO8UuaB"
+consumer_key = "ck"
+consumer_secret = "cs"
+access_token = "a-at"
+access_secret = "ac"
 
 options(httr_oauth_cache=T) 
 
